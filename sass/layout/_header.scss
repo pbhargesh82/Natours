@@ -26,10 +26,7 @@
     // center anything with the transform, top and left properties
     // needs to set parent elemnet position as relative and child element position as absolute
     &__text-box {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        @include absCenter;
         text-align: center;
     }
 }
